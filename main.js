@@ -17,3 +17,9 @@ const ArraydeProductos = pseudoPeticion.map ( (el)=>{
     return new Productos(el.nombre, el.precio, el.id, el.stock)
 })
 
+class Carrito {
+    constructor () {
+        this.producto []
+        this.total = 0
+    }
+}
